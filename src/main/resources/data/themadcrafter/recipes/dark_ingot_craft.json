@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"***",
+		"*#*",
+		"***"
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:ingot_mold"
+		},
+		"*": {
+			"item": "themadcrafter:black_mica_chunk"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:dark_ingot",
+		"count": 1
+	}
+}

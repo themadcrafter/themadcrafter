@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"# #",
+		"#*#",
+		"###"
+	
+	],
+	"key": {
+		"*": {
+			"item": "themadcrafter:chestplate_mold"
+		},
+		"#": {
+			"item": "themadcrafter:pink_opal_ingot"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:pink_opal_chestplate",
+		"count": 1
+	}
+}

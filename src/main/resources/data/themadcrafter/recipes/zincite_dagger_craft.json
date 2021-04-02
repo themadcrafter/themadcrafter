@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" # ",
+		" * "
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:zincite_crystal"
+		},
+		"*": {
+			"item": "themadcrafter:reinforced_bar"
+				}
+		
+	},
+	"result": {
+		"item": "themadcrafter:silver_sword",
+		"count": 1
+	}
+}

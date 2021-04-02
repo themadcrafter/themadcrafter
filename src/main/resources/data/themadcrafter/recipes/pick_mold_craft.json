@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		" # ",
+		" # "
+		
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:black_mica_chunk"
+		}
+	},
+	"result": {
+		"item": "themadcrafter:pick_mold",
+		"count": 1
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "themadcrafter:blocks/ruby_ore",
+    "up": "themadcrafter:blocks/ruby_ore",
+    "north": "themadcrafter:blocks/ruby_ore",
+    "east": "themadcrafter:blocks/ruby_ore",
+    "south": "themadcrafter:blocks/ruby_ore",
+    "west": "themadcrafter:blocks/ruby_ore",
+    "particle": "themadcrafter:blocks/ruby_ore"
+  }
+}

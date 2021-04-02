@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "themadcrafter:blocks/beryl_ore",
+    "up": "themadcrafter:blocks/beryl_ore",
+    "north": "themadcrafter:blocks/beryl_ore",
+    "east": "themadcrafter:blocks/beryl_ore",
+    "south": "themadcrafter:blocks/beryl_ore",
+    "west": "themadcrafter:blocks/beryl_ore",
+    "particle": "themadcrafter:blocks/beryl_ore"
+  }
+}

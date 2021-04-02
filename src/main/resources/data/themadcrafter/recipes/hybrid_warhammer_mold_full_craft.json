@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"*#*",
+		"*#*",
+		"*#*"
+	],
+	"key": {
+		"*": {
+			"item": "themadcrafter:hybrid_liquid"
+		},
+		"#": {
+			"item": "themadcrafter:hybrid_warhammer_mold_empty"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:hybrid_warhammer_mold_full",
+		"count": 1
+	}
+}

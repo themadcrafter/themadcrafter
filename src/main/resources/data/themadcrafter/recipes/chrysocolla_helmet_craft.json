@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"#*#"
+	
+	],
+	"key": {
+		"*": {
+			"item": "themadcrafter:helmet_mold"
+		},
+		"#": {
+			"item": "themadcrafter:chrysocolla_crystal"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:chrysocolla_helmet",
+		"count": 1
+	}
+}

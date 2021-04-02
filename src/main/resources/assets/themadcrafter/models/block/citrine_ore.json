@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "themadcrafter:blocks/citrine_ore",
+    "up": "themadcrafter:blocks/citrine_ore",
+    "north": "themadcrafter:blocks/citrine_ore",
+    "east": "themadcrafter:blocks/citrine_ore",
+    "south": "themadcrafter:blocks/citrine_ore",
+    "west": "themadcrafter:blocks/citrine_ore",
+    "particle": "themadcrafter:blocks/citrine_ore"
+  }
+}

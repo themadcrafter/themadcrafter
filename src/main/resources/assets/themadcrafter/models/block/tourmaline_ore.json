@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "themadcrafter:blocks/tourmaline_ore",
+    "up": "themadcrafter:blocks/tourmaline_ore",
+    "north": "themadcrafter:blocks/tourmaline_ore",
+    "east": "themadcrafter:blocks/tourmaline_ore",
+    "south": "themadcrafter:blocks/tourmaline_ore",
+    "west": "themadcrafter:blocks/tourmaline_ore",
+    "particle": "themadcrafter:blocks/tourmaline_ore"
+  }
+}

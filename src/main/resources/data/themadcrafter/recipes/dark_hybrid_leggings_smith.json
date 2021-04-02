@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "themadcrafter:hybrid_leggings"
+    },
+    "addition": {
+        "item": "themadcrafter:dark_ingot"
+    },
+    "result": {
+        "item": "themadcrafter:dark_hybrid_leggings"
+    }
+}

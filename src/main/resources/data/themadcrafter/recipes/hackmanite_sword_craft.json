@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" # ",
+		" # ",
+		" * "
+		
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:hackmanite_crystal"
+		},
+		"*": {
+			"item": "themadcrafter:reinforced_bar"
+				}
+		
+	},
+	"result": {
+		"item": "themadcrafter:hackmanite_sword",
+		"count": 1
+	}
+}

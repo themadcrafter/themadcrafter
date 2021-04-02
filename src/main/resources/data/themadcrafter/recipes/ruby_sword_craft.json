@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" # ",
+		" # ",
+		" * "
+		
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:ruby_crystal"
+		},
+		"*": {
+			"item": "themadcrafter:reinforced_bar"
+				}
+		
+	},
+	"result": {
+		"item": "themadcrafter:ruby_sword",
+		"count": 1
+	}
+}

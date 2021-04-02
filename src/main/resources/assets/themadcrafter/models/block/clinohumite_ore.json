@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "themadcrafter:blocks/clinohumite_ore",
+    "up": "themadcrafter:blocks/clinohumite_ore",
+    "north": "themadcrafter:blocks/clinohumite_ore",
+    "east": "themadcrafter:blocks/clinohumite_ore",
+    "south": "themadcrafter:blocks/clinohumite_ore",
+    "west": "themadcrafter:blocks/clinohumite_ore",
+    "particle": "themadcrafter:blocks/clinohumite_ore"
+  }
+}

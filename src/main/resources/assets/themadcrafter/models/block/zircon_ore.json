@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "themadcrafter:blocks/zircon_ore",
+    "up": "themadcrafter:blocks/zircon_ore",
+    "north": "themadcrafter:blocks/zircon_ore",
+    "east": "themadcrafter:blocks/zircon_ore",
+    "south": "themadcrafter:blocks/zircon_ore",
+    "west": "themadcrafter:blocks/zircon_ore",
+    "particle": "themadcrafter:blocks/zircon_ore"
+  }
+}

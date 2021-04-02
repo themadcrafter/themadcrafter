@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"#*#"
+	
+	],
+	"key": {
+		"*": {
+			"item": "themadcrafter:helmet_mold"
+		},
+		"#": {
+			"item": "themadcrafter:sphalerite_crystal"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:sphalerite_helmet",
+		"count": 1
+	}
+}

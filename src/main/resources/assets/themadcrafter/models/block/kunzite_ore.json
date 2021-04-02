@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "themadcrafter:blocks/kunzite_ore",
+    "up": "themadcrafter:blocks/kunzite_ore",
+    "north": "themadcrafter:blocks/kunzite_ore",
+    "east": "themadcrafter:blocks/kunzite_ore",
+    "south": "themadcrafter:blocks/kunzite_ore",
+    "west": "themadcrafter:blocks/kunzite_ore",
+    "particle": "themadcrafter:blocks/kunzite_ore"
+  }
+}

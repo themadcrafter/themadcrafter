@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" # ",
+		" * ",
+		" $ " 
+		
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:aquamarine_ingot"
+		},
+		"*": {
+			"item": "themadcrafter:shovel_mold"
+				},
+		"$": {
+			"item": "themadcrafter:reinforced_tool_bar"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:aquamarine_shovel",
+		"count": 1
+	}
+}

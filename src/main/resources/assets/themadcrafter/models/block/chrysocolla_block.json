@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "themadcrafter:blocks/chrysocolla_block",
+    "up": "themadcrafter:blocks/chrysocolla_block",
+    "north": "themadcrafter:blocks/chrysocolla_block",
+    "east": "themadcrafter:blocks/chrysocolla_block",
+    "south": "themadcrafter:blocks/chrysocolla_block",
+    "west": "themadcrafter:blocks/chrysocolla_block",
+    "particle": "themadcrafter:blocks/chrysocolla_block"
+  }
+}

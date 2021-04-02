@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "themadcrafter:blocks/erythrite_block",
+    "up": "themadcrafter:blocks/erythrite_block",
+    "north": "themadcrafter:blocks/erythrite_block",
+    "east": "themadcrafter:blocks/erythrite_block",
+    "south": "themadcrafter:blocks/erythrite_block",
+    "west": "themadcrafter:blocks/erythrite_block",
+    "particle": "themadcrafter:blocks/erythrite_block"
+  }
+}

@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#*#",
+		"# #"
+		
+	],
+	"key": {
+		"*": {
+			"item": "themadcrafter:boots_mold"
+		},
+		"#": {
+			"item": "themadcrafter:hackmanite_crystal"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:hackmanite_boots",
+		"count": 1
+	}
+}

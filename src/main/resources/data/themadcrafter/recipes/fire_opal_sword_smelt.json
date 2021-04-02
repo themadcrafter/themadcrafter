@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "themadcrafter:fire_opal_sword_mold_full"
+    },
+    "result": "themadcrafter:fire_opal_sword",
+    "experience": 0.1,
+    "cookingtime": 200
+}

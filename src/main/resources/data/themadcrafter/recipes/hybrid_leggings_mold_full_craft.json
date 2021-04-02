@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#*#",
+		"# #",
+		"# #"
+	],
+	"key": {
+		"*": {
+			"item": "themadcrafter:hybrid_leggings_mold_empty"
+		},
+		"#": {
+			"item": "themadcrafter:hybrid_liquid"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:hybrid_leggings_mold_full",
+		"count": 1
+	}
+}

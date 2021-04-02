@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "themadcrafter:blocks/azurite_ore",
+    "up": "themadcrafter:blocks/azurite_ore",
+    "north": "themadcrafter:blocks/azurite_ore",
+    "east": "themadcrafter:blocks/azurite_ore",
+    "south": "themadcrafter:blocks/azurite_ore",
+    "west": "themadcrafter:blocks/azurite_ore",
+    "particle": "themadcrafter:blocks/azurite_ore"
+  }
+}

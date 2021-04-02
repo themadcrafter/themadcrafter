@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" # ",
+		" # ",
+		" * "
+		
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:dark_ingot"
+		},
+		"*": {
+			"item": "themadcrafter:reinforced_bar"
+				}
+		
+	},
+	"result": {
+		"item": "themadcrafter:dark_sword",
+		"count": 1
+	}
+}

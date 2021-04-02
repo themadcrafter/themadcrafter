@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"*#*",
+		"*#*",
+		"*#*"
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:erythrite_ingot"
+		},
+		"*": {
+			"item": "themadcrafter:black_mica_chunk"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:erythrite_club_mold_empty",
+		"count": 1
+	}
+}

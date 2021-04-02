@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" # ",
+		" * ",
+		" $ " 
+		
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:obsidian_crystal"
+		},
+		"*": {
+			"item": "themadcrafter:shovel_mold"
+				},
+		"$": {
+			"item": "themadcrafter:reinforced_tool_bar"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:obsidian_shovel",
+		"count": 1
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" # ",
+		" * ",
+		" $ "
+		
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:hybrid_liquid"
+		},
+		"*": {
+			"item": "themadcrafter:shovel_mold"
+				},
+		"$": {
+			"item": "themadcrafter:reinforced_tool_bar"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:hybrid_shovel_smelt",
+		"count": 1
+	}
+}

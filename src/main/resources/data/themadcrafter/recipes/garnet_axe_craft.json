@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"## ",
+		"#* ",
+		" $ "
+		
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:garnet_crystal"
+		},
+		"*": {
+			"item": "themadcrafter:axe_mold"
+				},
+		"$": {
+			"item": "themadcrafter:reinforced_tool_bar"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:garnet_axe",
+		"count": 1
+	}
+}

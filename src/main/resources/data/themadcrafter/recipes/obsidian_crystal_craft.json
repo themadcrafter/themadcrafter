@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" # ",
+		"#*#",
+		" # "
+		
+	],
+	"key": {
+		"*": {
+			"item": "themadcrafter:crystal_mold"
+		},
+		"#": {
+			"item": "minecraft:obsidian"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:obsidian_crystal",
+		"count": 1
+	}
+}

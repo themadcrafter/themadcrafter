@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"***",
+		"*#*",
+		"***"
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:ingot_mold"
+		},
+		"*": {
+			"item": "themadcrafter:erythrite_nugget"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:erythrite_ingot",
+		"count": 1
+	}
+}

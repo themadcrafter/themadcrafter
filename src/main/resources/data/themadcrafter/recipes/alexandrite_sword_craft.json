@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" # ",
+		" # ",
+		" * "
+		
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:alexandrite_crystal"
+		},
+		"*": {
+			"item": "themadcrafter:reinforced_bar"
+				}
+		
+	},
+	"result": {
+		"item": "themadcrafter:alexandrite_sword",
+		"count": 1
+	}
+}

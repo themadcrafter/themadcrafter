@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "themadcrafter:blocks/volcanic_rose_ore",
+    "up": "themadcrafter:blocks/volcanic_rose_ore",
+    "north": "themadcrafter:blocks/volcanic_rose_ore",
+    "east": "themadcrafter:blocks/volcanic_rose_ore",
+    "south": "themadcrafter:blocks/volcanic_rose_ore",
+    "west": "themadcrafter:blocks/volcanic_rose_ore",
+    "particle": "themadcrafter:blocks/volcanic_rose_ore"
+  }
+}

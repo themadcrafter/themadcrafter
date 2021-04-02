@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" &$",
+		"#* "
+	
+	],
+	"key": {
+		"*": {
+			"item": "themadcrafter:zincite_liquid"
+		},
+		"$": {
+			"item": "themadcrafter:volcanic_rose_liquid"
+		},
+		"&": {
+			"item": "themadcrafter:chrysocolla_liquid"
+		},
+		"#": {
+			"item": "themadcrafter:zircon_liquid"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:hybrid_liquid",
+		"count": 1
+	}
+}

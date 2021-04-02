@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" # ",
+		"#*#",
+		" # "
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:hackmanite_liquid"
+		},
+		"*": {
+			"item": "themadcrafter:crystal_mold"
+				}
+		
+	},
+	"result": {
+		"item": "themadcrafter:hackmanite_crystal",
+		"count": 1
+	}
+}

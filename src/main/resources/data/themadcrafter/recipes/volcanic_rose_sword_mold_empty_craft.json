@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"*#*",
+		"*#*",
+		"*#*"
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:volcanic_rose_crystal"
+		},
+		"*": {
+			"item": "themadcrafter:black_mica_chunk"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:volcanic_rose_sword_mold_empty",
+		"count": 1
+	}
+}

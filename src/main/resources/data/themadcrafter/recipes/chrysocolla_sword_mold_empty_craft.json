@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"*#*",
+		"*#*",
+		"*#*"
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:chrysocolla_crystal"
+		},
+		"*": {
+			"item": "themadcrafter:black_mica_chunk"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:chrysocolla_sword_mold_empty",
+		"count": 1
+	}
+}

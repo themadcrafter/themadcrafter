@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" &$",
+		"#* "
+	
+	],
+	"key": {
+		"*": {
+			"item": "themadcrafter:azurite_liquid"
+		},
+		"$": {
+			"item": "themadcrafter:erythrite_liquid"
+		},
+		"&": {
+			"item": "themadcrafter:zincite_liquid"
+		},
+		"#": {
+			"item": "themadcrafter:flourite_liquid"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:exotic_liquid",
+		"count": 1
+	}
+}

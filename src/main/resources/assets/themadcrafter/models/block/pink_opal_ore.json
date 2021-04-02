@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "themadcrafter:blocks/pink_opal_ore",
+    "up": "themadcrafter:blocks/pink_opal_ore",
+    "north": "themadcrafter:blocks/pink_opal_ore",
+    "east": "themadcrafter:blocks/pink_opal_ore",
+    "south": "themadcrafter:blocks/pink_opal_ore",
+    "west": "themadcrafter:blocks/pink_opal_ore",
+    "particle": "themadcrafter:blocks/pink_opal_ore"
+  }
+}

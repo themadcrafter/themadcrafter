@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"#*#"
+	
+	],
+	"key": {
+		"*": {
+			"item": "themadcrafter:helmet_mold"
+		},
+		"#": {
+			"item": "themadcrafter:aquamarine_ingot"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:aquamarine_helmet",
+		"count": 1
+	}
+}

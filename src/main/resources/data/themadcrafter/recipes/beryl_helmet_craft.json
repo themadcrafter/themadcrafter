@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"#*#"
+	
+	],
+	"key": {
+		"*": {
+			"item": "themadcrafter:helmet_mold"
+		},
+		"#": {
+			"item": "themadcrafter:beryl_crystal"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:beryl_helmet",
+		"count": 1
+	}
+}

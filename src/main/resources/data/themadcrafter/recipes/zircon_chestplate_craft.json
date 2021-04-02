@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"# #",
+		"#*#",
+		"###"
+	
+	],
+	"key": {
+		"*": {
+			"item": "themadcrafter:chestplate_mold"
+		},
+		"#": {
+			"item": "themadcrafter:zircon_crystal"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:zircon_chestplate",
+		"count": 1
+	}
+}

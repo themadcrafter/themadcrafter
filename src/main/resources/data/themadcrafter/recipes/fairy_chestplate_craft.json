@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"# #",
+		"#*#",
+		"###"
+	
+	],
+	"key": {
+		"*": {
+			"item": "themadcrafter:chestplate_mold"
+		},
+		"#": {
+			"item": "themadcrafter:fairy_ingot"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:fairy_chestplate",
+		"count": 1
+	}
+}

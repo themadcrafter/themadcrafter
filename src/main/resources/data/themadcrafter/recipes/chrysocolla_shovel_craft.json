@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" # ",
+		" * ",
+		" $ " 
+		
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:chrysocolla_crystal"
+		},
+		"*": {
+			"item": "themadcrafter:shovel_mold"
+				},
+		"$": {
+			"item": "themadcrafter:reinforced_tool_bar"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:chrysocolla_shovel",
+		"count": 1
+	}
+}

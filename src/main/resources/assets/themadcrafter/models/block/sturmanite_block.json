@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "themadcrafter:blocks/sturmanite_block",
+    "up": "themadcrafter:blocks/sturmanite_block",
+    "north": "themadcrafter:blocks/sturmanite_block",
+    "east": "themadcrafter:blocks/sturmanite_block",
+    "south": "themadcrafter:blocks/sturmanite_block",
+    "west": "themadcrafter:blocks/sturmanite_block",
+    "particle": "themadcrafter:blocks/sturmanite_block"
+  }
+}

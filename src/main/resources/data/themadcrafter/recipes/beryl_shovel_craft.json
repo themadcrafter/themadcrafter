@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" # ",
+		" * ",
+		" $ " 
+		
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:beryl_crystal"
+		},
+		"*": {
+			"item": "themadcrafter:shovel_mold"
+				},
+		"$": {
+			"item": "themadcrafter:reinforced_tool_bar"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:beryl_shovel",
+		"count": 1
+	}
+}

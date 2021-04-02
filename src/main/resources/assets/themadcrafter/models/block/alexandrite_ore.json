@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "themadcrafter:blocks/alexandrite_ore",
+    "up": "themadcrafter:blocks/alexandrite_ore",
+    "north": "themadcrafter:blocks/alexandrite_ore",
+    "east": "themadcrafter:blocks/alexandrite_ore",
+    "south": "themadcrafter:blocks/alexandrite_ore",
+    "west": "themadcrafter:blocks/alexandrite_ore",
+    "particle": "themadcrafter:blocks/alexandrite_ore"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "themadcrafter:blocks/flourite_ore",
+    "up": "themadcrafter:blocks/flourite_ore",
+    "north": "themadcrafter:blocks/flourite_ore",
+    "east": "themadcrafter:blocks/flourite_ore",
+    "south": "themadcrafter:blocks/flourite_ore",
+    "west": "themadcrafter:blocks/flourite_ore",
+    "particle": "themadcrafter:blocks/flourite_ore"
+  }
+}

@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"## ",
+		"#* ",
+		" $ "
+		
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:sturmanite_ingot"
+		},
+		"*": {
+			"item": "themadcrafter:axe_mold"
+				},
+		"$": {
+			"item": "themadcrafter:reinforced_tool_bar"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:sturmanite_axe",
+		"count": 1
+	}
+}

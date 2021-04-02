@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "themadcrafter:blocks/hackmanite_ore",
+    "up": "themadcrafter:blocks/hackmanite_ore",
+    "north": "themadcrafter:blocks/hackmanite_ore",
+    "east": "themadcrafter:blocks/hackmanite_ore",
+    "south": "themadcrafter:blocks/hackmanite_ore",
+    "west": "themadcrafter:blocks/hackmanite_ore",
+    "particle": "themadcrafter:blocks/hackmanite_ore"
+  }
+}

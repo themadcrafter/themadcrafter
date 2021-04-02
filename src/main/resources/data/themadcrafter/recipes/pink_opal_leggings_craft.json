@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#*#",
+		"# #",
+		"# #"
+	],
+	"key": {
+		"*": {
+			"item": "themadcrafter:leggings_mold"
+		},
+		"#": {
+			"item": "themadcrafter:pink_opal_ingot"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:pink_opal_leggings",
+		"count": 1
+	}
+}

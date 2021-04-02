@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#*#",
+		"# #"
+		
+	],
+	"key": {
+		"*": {
+			"item": "themadcrafter:boots_mold"
+		},
+		"#": {
+			"item": "themadcrafter:exotic_liquid"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:exotic_boots_mold_empty",
+		"count": 1
+	}
+}

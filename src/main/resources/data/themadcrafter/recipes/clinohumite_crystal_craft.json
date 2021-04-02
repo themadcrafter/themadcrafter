@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" # ",
+		"#*#",
+		" # "
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:clinohumite_liquid"
+		},
+		"*": {
+			"item": "themadcrafter:crystal_mold"
+				}
+		
+	},
+	"result": {
+		"item": "themadcrafter:clinohumite_crystal",
+		"count": 1
+	}
+}

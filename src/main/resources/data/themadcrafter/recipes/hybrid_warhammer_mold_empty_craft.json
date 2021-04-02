@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"*#*",
+		"*#*",
+		"*#*"
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:hybrid_liquid"
+		},
+		"*": {
+			"item": "themadcrafter:black_mica_chunk"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:hybrid_warhammer_mold_empty",
+		"count": 1
+	}
+}

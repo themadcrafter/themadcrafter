@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"#*#"
+	
+	],
+	"key": {
+		"*": {
+			"item": "themadcrafter:helmet_mold"
+		},
+		"#": {
+			"item": "themadcrafter:azurite_ingot"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:azurite_helmet",
+		"count": 1
+	}
+}

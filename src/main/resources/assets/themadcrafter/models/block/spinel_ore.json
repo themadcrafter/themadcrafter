@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "themadcrafter:blocks/spinel_ore",
+    "up": "themadcrafter:blocks/spinel_ore",
+    "north": "themadcrafter:blocks/spinel_ore",
+    "east": "themadcrafter:blocks/spinel_ore",
+    "south": "themadcrafter:blocks/spinel_ore",
+    "west": "themadcrafter:blocks/spinel_ore",
+    "particle": "themadcrafter:blocks/spinel_ore"
+  }
+}

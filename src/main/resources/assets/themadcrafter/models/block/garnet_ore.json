@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "themadcrafter:blocks/garnet_ore",
+    "up": "themadcrafter:blocks/garnet_ore",
+    "north": "themadcrafter:blocks/garnet_ore",
+    "east": "themadcrafter:blocks/garnet_ore",
+    "south": "themadcrafter:blocks/garnet_ore",
+    "west": "themadcrafter:blocks/garnet_ore",
+    "particle": "themadcrafter:blocks/garnet_ore"
+  }
+}

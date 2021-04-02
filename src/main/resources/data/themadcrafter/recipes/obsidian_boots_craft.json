@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#*#",
+		"# #"
+		
+	],
+	"key": {
+		"*": {
+			"item": "themadcrafter:boots_mold"
+		},
+		"#": {
+			"item": "themadcrafter:obsidian_crystal"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:obsidian_boots",
+		"count": 1
+	}
+}

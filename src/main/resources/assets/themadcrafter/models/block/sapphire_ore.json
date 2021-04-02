@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "themadcrafter:blocks/sapphire_ore",
+    "up": "themadcrafter:blocks/sapphire_ore",
+    "north": "themadcrafter:blocks/sapphire_ore",
+    "east": "themadcrafter:blocks/sapphire_ore",
+    "south": "themadcrafter:blocks/sapphire_ore",
+    "west": "themadcrafter:blocks/sapphire_ore",
+    "particle": "themadcrafter:blocks/sapphire_ore"
+  }
+}

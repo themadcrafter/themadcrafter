@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "themadcrafter:blocks/hydrocerussite_ore",
+    "up": "themadcrafter:blocks/hydrocerussite_ore",
+    "north": "themadcrafter:blocks/hydrocerussite_ore",
+    "east": "themadcrafter:blocks/hydrocerussite_ore",
+    "south": "themadcrafter:blocks/hydrocerussite_ore",
+    "west": "themadcrafter:blocks/hydrocerussite_ore",
+    "particle": "themadcrafter:blocks/hydrocerussite_ore"
+  }
+}

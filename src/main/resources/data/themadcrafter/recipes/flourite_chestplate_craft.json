@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"# #",
+		"#*#",
+		"###"
+	
+	],
+	"key": {
+		"*": {
+			"item": "themadcrafter:chestplate_mold"
+		},
+		"#": {
+			"item": "themadcrafter:flourite_ingot"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:flourite_chestplate",
+		"count": 1
+	}
+}

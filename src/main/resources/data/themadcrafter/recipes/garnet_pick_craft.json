@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		" * ",
+		" $ "
+		
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:garnet_crystal"
+		},
+		"*": {
+			"item": "themadcrafter:pick_mold"
+				},
+		"$": {
+			"item": "themadcrafter:reinforced_tool_bar"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:garnet_pick",
+		"count": 1
+	}
+}

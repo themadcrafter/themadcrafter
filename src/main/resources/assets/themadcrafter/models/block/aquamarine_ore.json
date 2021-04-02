@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "themadcrafter:blocks/aquamarine_ore",
+    "up": "themadcrafter:blocks/aquamarine_ore",
+    "north": "themadcrafter:blocks/aquamarine_ore",
+    "east": "themadcrafter:blocks/aquamarine_ore",
+    "south": "themadcrafter:blocks/aquamarine_ore",
+    "west": "themadcrafter:blocks/aquamarine_ore",
+    "particle": "themadcrafter:blocks/aquamarine_ore"
+  }
+}

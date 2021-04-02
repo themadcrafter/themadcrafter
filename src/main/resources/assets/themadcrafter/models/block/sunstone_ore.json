@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "themadcrafter:blocks/sunstone_ore",
+    "up": "themadcrafter:blocks/sunstone_ore",
+    "north": "themadcrafter:blocks/sunstone_ore",
+    "east": "themadcrafter:blocks/sunstone_ore",
+    "south": "themadcrafter:blocks/sunstone_ore",
+    "west": "themadcrafter:blocks/sunstone_ore",
+    "particle": "themadcrafter:blocks/sunstone_ore"
+  }
+}

@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"#*#",
+		" * "	
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:sunstone_crystal"
+		},
+		"*": {
+			"item": "themadcrafter:reinforced_bar"
+				}
+		
+	},
+	"result": {
+		"item": "themadcrafter:sunstone_battleaxe",
+		"count": 1
+	}
+}

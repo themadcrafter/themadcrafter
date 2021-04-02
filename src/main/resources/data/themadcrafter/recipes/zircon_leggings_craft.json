@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#*#",
+		"# #",
+		"# #"
+	],
+	"key": {
+		"*": {
+			"item": "themadcrafter:leggings_mold"
+		},
+		"#": {
+			"item": "themadcrafter:zircon_crystal"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:zircon_leggings",
+		"count": 1
+	}
+}

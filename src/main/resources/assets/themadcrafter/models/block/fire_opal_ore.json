@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "themadcrafter:blocks/fire_opal_ore",
+    "up": "themadcrafter:blocks/fire_opal_ore",
+    "north": "themadcrafter:blocks/fire_opal_ore",
+    "east": "themadcrafter:blocks/fire_opal_ore",
+    "south": "themadcrafter:blocks/fire_opal_ore",
+    "west": "themadcrafter:blocks/fire_opal_ore",
+    "particle": "themadcrafter:blocks/fire_opal_ore"
+  }
+}

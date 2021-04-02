@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"#*#"
+	
+	],
+	"key": {
+		"*": {
+			"item": "themadcrafter:helmet_mold"
+		},
+		"#": {
+			"item": "themadcrafter:volcanic_rose_crystal"
+		}
+		
+	},
+	"result": {
+		"item": "themadcrafter:volcanic_rose_helmet",
+		"count": 1
+	}
+}
