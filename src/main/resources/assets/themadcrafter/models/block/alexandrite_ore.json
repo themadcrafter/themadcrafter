@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "themadcrafter:blocks/alexandrite_ore",
-    "up": "themadcrafter:blocks/alexandrite_ore",
-    "north": "themadcrafter:blocks/alexandrite_ore",
-    "east": "themadcrafter:blocks/alexandrite_ore",
-    "south": "themadcrafter:blocks/alexandrite_ore",
-    "west": "themadcrafter:blocks/alexandrite_ore",
-    "particle": "themadcrafter:blocks/alexandrite_ore"
+    "down": "themadcrafter:blocks/alexandrite_ore_d",
+    "up": "themadcrafter:blocks/alexandrite_ore_u",
+    "north": "themadcrafter:blocks/alexandrite_ore_n",
+    "east": "themadcrafter:blocks/alexandrite_ore_e",
+    "south": "themadcrafter:blocks/alexandrite_ore_s",
+    "west": "themadcrafter:blocks/alexandrite_ore_w",
+    "particle": "themadcrafter:blocks/alexandrite_ore_d"
   }
 }

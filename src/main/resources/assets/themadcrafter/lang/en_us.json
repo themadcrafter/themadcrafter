@@ -21,6 +21,7 @@
 	"item.themadcrafter.ammolite_ingot": "Ammolite Ingot",
 	"item.themadcrafter.citrine_ingot": "Citrine Ingot",
 	"item.themadcrafter.spinel_ingot": "Spinel Ingot",	
+	
 	"item.themadcrafter.azurite_crystal": "Azurite Crystal",
 	"item.themadcrafter.chrysocolla_crystal": "Chrysocolla Crystal",
 	"item.themadcrafter.fire_opal_crystal": "FireOpal Crystal",
@@ -38,7 +39,8 @@
 	"item.themadcrafter.ruby_crystal": "Ruby Crystal",
 	"item.themadcrafter.sphalerite_crystal": "Sphalerite Crystal",
 	"item.themadcrafter.tourmaline_crystal": "Tourmaline Crystal",	
-	"item.themadcrafter.sunstone_crystal": "Sun Crystal",							
+	"item.themadcrafter.sunstone_crystal": "Sun Crystal",		
+						
 	"item.themadcrafter.azurite_liquid": "Azurite Liquid",
 	"item.themadcrafter.chrysocolla_liquid": "Chrysocolla Liquid",
 	"item.themadcrafter.erythrite_liquid": "Erythrite Liquid",
@@ -54,6 +56,7 @@
 	"item.themadcrafter.hackmanite_liquid": "Hackmanite Liquid",
 	"item.themadcrafter.sphalerite_liquid": "Sphalerite Liquid",
 	"item.themadcrafter.sunstone_liquid": "Sunstone Liquid",	
+	
 	"item.themadcrafter.axe_mold": "Axe Mold",
 	"item.themadcrafter.hoe_mold": "Hoe Mold",
 	"item.themadcrafter.pick_mold": "Pick Mold",
@@ -95,6 +98,7 @@
 	"item.themadcrafter.volcanic_rose_sword_mold_full": "VolcanicRose Sword Mold Full",
 	"item.themadcrafter.zircon_sword_mold_empty": "Zircon Sword Mold Empty",
 	"item.themadcrafter.zircon_sword_mold_full": "Zircon Sword Mold Full",
+	
 	"item.themadcrafter.aquamarine_axe": "AquaMarine Axe",	
 	"item.themadcrafter.aquamarine_pick": "AquaMarine Pick",	
 	"item.themadcrafter.aquamarine_shovel": "AquaMarine Shovel",	
@@ -167,7 +171,8 @@
 	"item.themadcrafter.sunstone_shovel": "Sunstone Shovel",
 	"item.themadcrafter.clinohumite_axe": "Clinohumite Axe",	
 	"item.themadcrafter.clinohumite_pick": "Clinohumite Pick",	
-	"item.themadcrafter.clinohumite_shovel": "Clinohumite Shovel",					
+	"item.themadcrafter.clinohumite_shovel": "Clinohumite Shovel",	
+					
 	"item.themadcrafter.azurite_boots": "Azurite Boots",
 	"item.themadcrafter.azurite_leggings": "Azurite Leggings",
 	"item.themadcrafter.azurite_chestplate": "Azurite Chestplate",
@@ -260,6 +265,7 @@
 	"item.themadcrafter.ammolite_leggings": "Ammolite Leggings",		
 	"item.themadcrafter.ammolite_chestplate": "Ammolite Chestplate",	
 	"item.themadcrafter.ammolite_helmet": "Ammolite Helmet",	
+	
 	"item.themadcrafter.chrysocolla_sword": "Chrysocolla Sword",
 	"item.themadcrafter.dark_battleaxe": "Dark BattleAxe",
 	"item.themadcrafter.dark_silver_sword": "Dark Silver Sword",
@@ -283,7 +289,8 @@
 	"item.themadcrafter.spinel_sword": "Spinel Sword",		
 	"item.themadcrafter.tourmaline_sword": "Tourmaline Swprd",		
 	"item.themadcrafter.beryl_battleaxe": "Beryl BattleAxe",		
-	"item.themadcrafter.sunstone_battleaxe": "Sunstone BattleAxe",		
+	"item.themadcrafter.sunstone_battleaxe": "Sunstone BattleAxe",
+			
 	"item.themadcrafter.erythrite_nugget": "Erythrite Nugget",
 	"item.themadcrafter.flourite_nugget": "Flourite Nugget",
 	"item.themadcrafter.fools_gold_nugget": "FoolsGold Nugget",
@@ -292,7 +299,8 @@
 	"item.themadcrafter.sturmanite_nugget": "Sturmanite Nugget",
 	"item.themadcrafter.ammolite_nugget": "Ammolite Nugget",
 	"item.themadcrafter.citrine_nugget": "Citrine Nugget",
-	"item.themadcrafter.spinel_nugget": "Spinel Nugget",	
+	"item.themadcrafter.spinel_nugget": "Spinel Nugget",
+		
 	"block.themadcrafter.azurite_block": "Azurite Block",
 	"block.themadcrafter.black_mica_block": "BlackMica Block",
 	"block.themadcrafter.chrysocolla_block": "Chrysocolla Block",
@@ -304,6 +312,7 @@
 	"block.themadcrafter.sturmanite_block": "Sturmanite Block",
 	"block.themadcrafter.volcanic_rose_block": "VolcanicRose Block",
 	"block.themadcrafter.zircon_block": "Zircon Block",
+	
 	"block.themadcrafter.aquamarine_ore": "AquaMarine  Ore",
 	"block.themadcrafter.azurite_ore": "Azurite  Ore",
 	"block.themadcrafter.black_mica_ore": "Black Mica Ore",
@@ -333,6 +342,18 @@
 	"block.themadcrafter.sunstone_ore": "Sunstone Ore",
 	"block.themadcrafter.tourmaline_ore": "Tourmaline Ore",
 	"block.themadcrafter.sapphire_ore": "Sapphire Ore",
+	//nether
+	"block.themadcrafter.crystalized_black_mica_ore": "Crystalized Black Mica",
+	"block.themadcrafter.crystalized_chrysocolla_ore": "Crystalized Chrysocolla",
+	"block.themadcrafter.crystalized_flourite_ore": "Crystalized Flourite",
+	"block.themadcrafter.crystalized_volcanic_rose_ore": "Crystalized Volcanic Rose",
+	"block.themadcrafter.crystalized_zircon_ore": "Crystalized Zircon",	
+	"block.themadcrafter.crystalized_alexandrite_ore": "Crystalized Alexandrite",
+	"block.themadcrafter.crystalized_hackmanite_ore": "Crystalized Hackmanite",
+	"block.themadcrafter.crystalized_fire_opal_ore": "Crystalized FireOpal",
+	"block.themadcrafter.crystalized_sapphire_ore": "Crystalized Sapphire",
+	"block.themadcrafter.crystalized_ruby_ore": "Crystalized Ruby",	
+	
 	"itemGroup.themadcraftersarmor": "TMC Armor",
 	"itemGroup.themadcrafterstools": "TMC Tools",
 	"itemGroup.themadcraftersmolds": "TMC Molds",
@@ -341,5 +362,7 @@
 	"itemGroup.themadcraftersblocks": "TMC Blocks",
 	"itemGroup.themadcraftersliquids": "TMC Liquids",
 	"itemGroup.themadcrafterscrystals": "TMC Crystals",
-	"itemGroup.themadcraftersweapons": "TMC Weapons"
+	"itemGroup.themadcraftersweapons": "TMC Weapons",
+	"itemGroup.themadcrafterores": "TMC Ores"
+	
 }

@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+		
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:zircon_crystal"
+		}
+	},
+	"result": {
+		"item": "themadcrafter:zircon_block",
+		"count": 1
+	}
+}

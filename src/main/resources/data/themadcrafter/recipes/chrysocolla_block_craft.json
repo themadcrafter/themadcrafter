@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+		
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:chrysocolla_crystal"
+		}
+	},
+	"result": {
+		"item": "themadcrafter:chrysocolla_block",
+		"count": 1
+	}
+}

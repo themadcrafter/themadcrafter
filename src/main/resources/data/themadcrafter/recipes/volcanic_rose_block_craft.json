@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+		
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:volcanic_rose_crystal"
+		}
+	},
+	"result": {
+		"item": "themadcrafter:volcanic_rose_block",
+		"count": 1
+	}
+}

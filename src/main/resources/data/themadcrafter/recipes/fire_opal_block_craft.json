@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+		
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:fire_opal_crystal"
+		}
+	},
+	"result": {
+		"item": "themadcrafter:fire_opal_block",
+		"count": 1
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+		
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:pink_opal_ingot"
+		}
+	},
+	"result": {
+		"item": "themadcrafter:pink_opal_block",
+		"count": 1
+	}
+}

@@ -61,9 +61,9 @@ public class BlockInit {
 			() -> new Block(AbstractBlock.Properties.of(Material.STONE)
 					.sound(SoundType.STONE)
 					.harvestTool(ToolType.PICKAXE).harvestLevel(2)));
-	//ores
+	//ores surface
 	public static final RegistryObject<Block> AQUAMARINE_ORE = BLOCKS.register("aquamarine_ore",
-			() -> new Block(AbstractBlock.Properties.copy(Blocks.IRON_ORE)));
+			() -> new Block(AbstractBlock.Properties.copy(Blocks.GOLD_ORE)));
 	public static final RegistryObject<Block> AZURITE_ORE = BLOCKS.register("azurite_ore",
 			() -> new Block(AbstractBlock.Properties.copy(Blocks.IRON_ORE)));
 	public static final RegistryObject<Block> BLACK_MICA_ORE = BLOCKS.register("black_mica_ore",
@@ -73,7 +73,7 @@ public class BlockInit {
 	public static final RegistryObject<Block> ERYTHRITE_ORE = BLOCKS.register("erythrite_ore",
 			() -> new Block(AbstractBlock.Properties.copy(Blocks.COAL_ORE)));	
 	public static final RegistryObject<Block> FIRE_OPAL_ORE = BLOCKS.register("fire_opal_ore",
-			() -> new Block(AbstractBlock.Properties.copy(Blocks.IRON_ORE)));	
+			() -> new Block(AbstractBlock.Properties.copy(Blocks.DIAMOND_ORE)));	
 	public static final RegistryObject<Block> FLOURITE_ORE = BLOCKS.register("flourite_ore",
 			() -> new Block(AbstractBlock.Properties.copy(Blocks.IRON_ORE)));	
 	public static final RegistryObject<Block> FOOLS_GOLD_ORE = BLOCKS.register("fools_gold_ore",
@@ -99,15 +99,15 @@ public class BlockInit {
 	public static final RegistryObject<Block> ALEXANDRITE_ORE = BLOCKS.register("alexandrite_ore",
 			() -> new Block(AbstractBlock.Properties.copy(Blocks.IRON_ORE)));
 	public static final RegistryObject<Block> AMMOLITE_ORE = BLOCKS.register("ammolite_ore",
-			() -> new Block(AbstractBlock.Properties.copy(Blocks.IRON_ORE)));
+			() -> new Block(AbstractBlock.Properties.copy(Blocks.COAL_ORE)));
 	public static final RegistryObject<Block> BERYL_ORE = BLOCKS.register("beryl_ore",
 			() -> new Block(AbstractBlock.Properties.copy(Blocks.IRON_ORE)));	
 	public static final RegistryObject<Block> CITRINE_ORE = BLOCKS.register("citrine_ore",
 			() -> new Block(AbstractBlock.Properties.copy(Blocks.IRON_ORE)));	
 	public static final RegistryObject<Block> CLINOHUMITE_ORE = BLOCKS.register("clinohumite_ore",
-			() -> new Block(AbstractBlock.Properties.copy(Blocks.COAL_ORE)));	
-	public static final RegistryObject<Block> GARNET_ORE = BLOCKS.register("garnet_ore",
 			() -> new Block(AbstractBlock.Properties.copy(Blocks.IRON_ORE)));	
+	public static final RegistryObject<Block> GARNET_ORE = BLOCKS.register("garnet_ore",
+			() -> new Block(AbstractBlock.Properties.copy(Blocks.DIAMOND_ORE)));	
 	public static final RegistryObject<Block> HACKMANITE_ORE = BLOCKS.register("hackmanite_ore",
 			() -> new Block(AbstractBlock.Properties.copy(Blocks.IRON_ORE)));	
 	public static final RegistryObject<Block> RUBY_ORE = BLOCKS.register("ruby_ore",
@@ -120,4 +120,26 @@ public class BlockInit {
 			() -> new Block(AbstractBlock.Properties.copy(Blocks.COAL_ORE)));	
 	public static final RegistryObject<Block> TOURMALINE_ORE = BLOCKS.register("tourmaline_ore",
 			() -> new Block(AbstractBlock.Properties.copy(Blocks.IRON_ORE)));	
+	//ores nether
+	public static final RegistryObject<Block> CRYSTALIZED_BLACK_MICA_ORE = BLOCKS.register("crystalized_black_mica_ore",
+			() -> new Block(AbstractBlock.Properties.copy(Blocks.GOLD_ORE)));	
+	public static final RegistryObject<Block> CYSTALIZED_CHRYSOCOLLA_ORE = BLOCKS.register("crystalized_chrysocolla_ore",
+			() -> new Block(AbstractBlock.Properties.copy(Blocks.DIAMOND_ORE)));
+	public static final RegistryObject<Block> CRYSTALIZED_FLOURITE_ORE = BLOCKS.register("crystalized_flourite_ore",
+			() -> new Block(AbstractBlock.Properties.copy(Blocks.COAL_ORE)));	
+	public static final RegistryObject<Block> CRYSTALIZED_VOLCANIC_ROSE_ORE = BLOCKS.register("crystalized_volcanic_rose_ore",
+			() -> new Block(AbstractBlock.Properties.copy(Blocks.COAL_ORE)));	
+	public static final RegistryObject<Block> CRYSTALIZED_ZIRCON_ORE = BLOCKS.register("crystalized_zircon_ore",
+			() -> new Block(AbstractBlock.Properties.copy(Blocks.IRON_ORE)));
+	public static final RegistryObject<Block> CRYSTALIZED_ALEXANDRITE_ORE = BLOCKS.register("crystalized_alexandrite_ore",
+			() -> new Block(AbstractBlock.Properties.copy(Blocks.IRON_ORE)));	
+	public static final RegistryObject<Block> CRYSTALIZED_HACKMANITE_ORE = BLOCKS.register("crystalized_hackmanite_ore",
+			() -> new Block(AbstractBlock.Properties.copy(Blocks.DIAMOND_ORE)));
+	public static final RegistryObject<Block> CRYSTALIZED_FIRE_OPAL_ORE = BLOCKS.register("crystalized_fire_opal_ore",
+			() -> new Block(AbstractBlock.Properties.copy(Blocks.COAL_ORE)));	
+	public static final RegistryObject<Block> CRYSTALIZED_SAPPHIRE_ORE = BLOCKS.register("crystalized_sapphire_ore",
+			() -> new Block(AbstractBlock.Properties.copy(Blocks.COAL_ORE)));	
+	public static final RegistryObject<Block> CRYSTALIZED_RUBY_ORE = BLOCKS.register("crystalized_ruby_ore",
+			() -> new Block(AbstractBlock.Properties.copy(Blocks.IRON_ORE)));
+	
 }

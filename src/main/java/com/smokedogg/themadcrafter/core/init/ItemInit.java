@@ -12,7 +12,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class ItemInit {
 	
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, TheMadCrafter.MOD_ID);
-
+	
 	public static final RegistryObject<Item> BLACK_MICA_CHUNK = ITEMS.register("black_mica_chunk", () -> new Item(new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERMATERIALS_TAB)));
 	public static final RegistryObject<Item> REINFORCED_BAR = ITEMS.register("reinforced_bar", () -> new Item(new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERMATERIALS_TAB)));
 	public static final RegistryObject<Item> REINFORCED_TOOL_BAR = ITEMS.register("reinforced_tool_bar", () -> new Item(new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERMATERIALS_TAB)));
@@ -312,11 +312,9 @@ public class ItemInit {
 	public static final RegistryObject<Item> AMMOLITE_BOOTS = ITEMS.register("ammolite_boots",() -> new ArmorItem(TmcArmorMaterial.AMMOLITE, EquipmentSlotType.FEET, new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERARMOR_TAB)));
 	public static final RegistryObject<Item> AMMOLITE_LEGGINGS = ITEMS.register("ammolite_leggings", () -> new ArmorItem(TmcArmorMaterial.AMMOLITE, EquipmentSlotType.LEGS, new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERARMOR_TAB)));
 	public static final RegistryObject<Item> AMMOLITE_CHESTPLATE = ITEMS.register("ammolite_chestplate", () -> new ArmorItem(TmcArmorMaterial.AMMOLITE, EquipmentSlotType.CHEST, new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERARMOR_TAB)));
-	public static final RegistryObject<Item> AMMOLITE_HELMET = ITEMS.register("ammolite_helmet", () -> new ArmorItem(TmcArmorMaterial.AMMOLITE, EquipmentSlotType.HEAD, new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERARMOR_TAB)));	
-	//horse armor//	
- 
-	//blockitems//
-	public static final RegistryObject<BlockItem> AZURITE_BLOCK = ITEMS.register("azurite_block",
+	public static final RegistryObject<Item> AMMOLITE_HELMET = ITEMS.register("ammolite_helmet", () -> new ArmorItem(TmcArmorMaterial.AMMOLITE, EquipmentSlotType.HEAD, new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERARMOR_TAB)));
+
+    public static final RegistryObject<BlockItem> AZURITE_BLOCK = ITEMS.register("azurite_block",
 			() -> new BlockItem(BlockInit.AZURITE_BLOCK.get(), 
 				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
 	public static final RegistryObject<BlockItem> BLACK_MICA_BLOCK = ITEMS.register("black_mica_block",
@@ -349,91 +347,124 @@ public class ItemInit {
 	public static final RegistryObject<BlockItem> ZIRCON_BLOCK = ITEMS.register("zircon_block",
 			() -> new BlockItem(BlockInit.ZIRCON_BLOCK.get(), 
 				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+	
 	public static final RegistryObject<BlockItem> AQUAMARINE_ORE = ITEMS.register("aquamarine_ore",
 			() -> new BlockItem(BlockInit.AQUAMARINE_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
 	public static final RegistryObject<BlockItem> AZURITE_ORE = ITEMS.register("azurite_ore",
 			() -> new BlockItem(BlockInit.AZURITE_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
 	public static final RegistryObject<BlockItem> BLACK_MICA_ORE = ITEMS.register("black_mica_ore",
 			() -> new BlockItem(BlockInit.BLACK_MICA_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
 	public static final RegistryObject<BlockItem> CHRYSOCOLLA_ORE = ITEMS.register("chrysocolla_ore",
 			() -> new BlockItem(BlockInit.CHRYSOCOLLA_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
 	public static final RegistryObject<BlockItem> ERYTHRITE_ORE = ITEMS.register("erythrite_ore",
 			() -> new BlockItem(BlockInit.ERYTHRITE_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
 	public static final RegistryObject<BlockItem> FIRE_OPAL_ORE = ITEMS.register("fire_opal_ore",
 			() -> new BlockItem(BlockInit.FIRE_OPAL_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
 	public static final RegistryObject<BlockItem> FLOURITE_ORE = ITEMS.register("flourite_ore",
 			() -> new BlockItem(BlockInit.FLOURITE_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
 	public static final RegistryObject<BlockItem> FOOLS_GOLD_ORE = ITEMS.register("fools_gold_ore",
 			() -> new BlockItem(BlockInit.FOOLS_GOLD_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
 	public static final RegistryObject<BlockItem> HYDROCERUSSITE_ORE = ITEMS.register("hydrocerussite_ore",
 			() -> new BlockItem(BlockInit.HYDROCERUSSITE_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
 	public static final RegistryObject<BlockItem> KUNZITE_ORE = ITEMS.register("kunzite_ore",
 			() -> new BlockItem(BlockInit.KUNZITE_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));	
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));	
 	public static final RegistryObject<BlockItem> PINK_OPAL_ORE = ITEMS.register("pink_opal_ore",
 			() -> new BlockItem(BlockInit.PINK_OPAL_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
 	public static final RegistryObject<BlockItem> SILVER_ORE = ITEMS.register("silver_ore",
 			() -> new BlockItem(BlockInit.SILVER_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
 	public static final RegistryObject<BlockItem> STURMANITE_ORE = ITEMS.register("sturmanite_ore",
 			() -> new BlockItem(BlockInit.STURMANITE_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
 	public static final RegistryObject<BlockItem> VOLCANIC_ROSE_ORE = ITEMS.register("volcanic_rose_ore",
 			() -> new BlockItem(BlockInit.VOLCANIC_ROSE_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
 	public static final RegistryObject<BlockItem> ZINCITE_ORE = ITEMS.register("zincite_ore",
 			() -> new BlockItem(BlockInit.ZINCITE_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
 	public static final RegistryObject<BlockItem> ZIRCON_ORE = ITEMS.register("zircon_ore",
 			() -> new BlockItem(BlockInit.ZIRCON_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
 	public static final RegistryObject<BlockItem> SAPPHIRE_ORE = ITEMS.register("sapphire_ore",
 			() -> new BlockItem(BlockInit.SAPPHIRE_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
 	public static final RegistryObject<BlockItem> ALEXANDRITE_ORE = ITEMS.register("alexandrite_ore",
 			() -> new BlockItem(BlockInit.ALEXANDRITE_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
 	public static final RegistryObject<BlockItem> AMMOLITE_ORE = ITEMS.register("ammolite_ore",
 			() -> new BlockItem(BlockInit.AMMOLITE_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
 	public static final RegistryObject<BlockItem> BERYL_ORE = ITEMS.register("beryl_ore",
 			() -> new BlockItem(BlockInit.BERYL_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
 	public static final RegistryObject<BlockItem> CITRINE_ORE = ITEMS.register("citrine_ore",
 			() -> new BlockItem(BlockInit.CITRINE_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
 	public static final RegistryObject<BlockItem> CLINOHUMITE_ORE = ITEMS.register("clinohumite_ore",
 			() -> new BlockItem(BlockInit.CLINOHUMITE_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));	
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));	
 	public static final RegistryObject<BlockItem> GARNET_ORE = ITEMS.register("garnet_ore",
 			() -> new BlockItem(BlockInit.GARNET_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
 	public static final RegistryObject<BlockItem> HACKMANITE_ORE = ITEMS.register("hackmanite_ore",
 			() -> new BlockItem(BlockInit.HACKMANITE_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
 	public static final RegistryObject<BlockItem> RUBY_ORE = ITEMS.register("ruby_ore",
 			() -> new BlockItem(BlockInit.RUBY_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
 	public static final RegistryObject<BlockItem> SPHALERITE_ORE = ITEMS.register("sphalerite_ore",
 			() -> new BlockItem(BlockInit.SPHALERITE_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
 	public static final RegistryObject<BlockItem> SPINEL_ORE = ITEMS.register("spinel_ore",
 			() -> new BlockItem(BlockInit.SPINEL_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
 	public static final RegistryObject<BlockItem> SUNSTONE_ORE = ITEMS.register("sunstone_ore",
 			() -> new BlockItem(BlockInit.SUNSTONE_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
 	public static final RegistryObject<BlockItem> TOURMALINE_ORE = ITEMS.register("tourmaline_ore",
 			() -> new BlockItem(BlockInit.TOURMALINE_ORE.get(), 
-				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERBLOCKS_TAB)));
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
+	//ores nether
+	public static final RegistryObject<BlockItem> CRYSTALIZED_BLACK_MICA_ORE = ITEMS.register("crystalized_black_mica_ore",
+			() -> new BlockItem(BlockInit.CRYSTALIZED_BLACK_MICA_ORE.get(), 
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
+	public static final RegistryObject<BlockItem> CYSTALIZED_CHRYSOCOLLA_ORE = ITEMS.register("crystalized_chrysocolla_ore",
+			() -> new BlockItem(BlockInit.CYSTALIZED_CHRYSOCOLLA_ORE.get(), 
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
+	public static final RegistryObject<BlockItem> CRYSTALIZED_FLOURITE_ORE = ITEMS.register("crystalized_flourite_ore",
+			() -> new BlockItem(BlockInit.CRYSTALIZED_FLOURITE_ORE.get(), 
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
+	public static final RegistryObject<BlockItem> CRYSTALIZED_VOLCANIC_ROSE_ORE = ITEMS.register("crystalized_volcanic_rose_ore",
+			() -> new BlockItem(BlockInit.CRYSTALIZED_VOLCANIC_ROSE_ORE.get(), 
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
+	public static final RegistryObject<BlockItem> CRYSTALIZED_ZIRCON_ORE = ITEMS.register("crystalized_zircon_ore",
+			() -> new BlockItem(BlockInit.CRYSTALIZED_ZIRCON_ORE.get(), 
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
+	public static final RegistryObject<BlockItem> CRYSTALIZED_ALEXANDRITE_ORE = ITEMS.register("crystalized_alexandrite_ore",
+			() -> new BlockItem(BlockInit.CRYSTALIZED_ALEXANDRITE_ORE.get(), 
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
+	public static final RegistryObject<BlockItem> CRYSTALIZED_FIRE_OPAL_ORE = ITEMS.register("crystalized_fire_opal_ore",
+			() -> new BlockItem(BlockInit.CRYSTALIZED_FIRE_OPAL_ORE.get(), 
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
+	public static final RegistryObject<BlockItem> CRYSTALIZED_HACKMANITE_ORE = ITEMS.register("crystalized_hackmanite_ore",
+			() -> new BlockItem(BlockInit.CRYSTALIZED_HACKMANITE_ORE.get(), 
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
+	public static final RegistryObject<BlockItem> CRYSTALIZED_SAPPHIRE_ORE = ITEMS.register("crystalized_sapphire_ore",
+			() -> new BlockItem(BlockInit.CRYSTALIZED_SAPPHIRE_ORE.get(), 
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
+	public static final RegistryObject<BlockItem> CRYSTALIZED_RUBY_ORE = ITEMS.register("crystalized_ruby_ore",
+			() -> new BlockItem(BlockInit.CRYSTALIZED_RUBY_ORE.get(), 
+				  new Item.Properties().tab(TheMadCrafter.THEMADCRAFTERORES_TAB)));
 }
+

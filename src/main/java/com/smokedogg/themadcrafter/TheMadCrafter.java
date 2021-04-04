@@ -5,8 +5,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
+import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -20,7 +23,7 @@ public class TheMadCrafter {
 	
    public static final Logger LOGGER = LogManager.getLogger();
    public static final String MOD_ID = "themadcrafter";
-   
+ 
    public static final ItemGroup THEMADCRAFTERARMOR_TAB = new TMCArmorGroup("themadcraftersarmor");
    public static final ItemGroup THEMADCRAFTERTOOLS_TAB = new TMCToolsGroup("themadcrafterstools");
    public static final ItemGroup THEMADCRAFTERWEAPONS_TAB = new TMCWeaponGroup("themadcraftersweapons"); 
@@ -30,11 +33,12 @@ public class TheMadCrafter {
    public static final ItemGroup THEMADCRAFTERBLOCKS_TAB = new TMCBlocksGroup("themadcraftersblocks"); 
    public static final ItemGroup THEMADCRAFTERMOLDS_TAB = new TMCMoldsGroup("themadcraftersmolds");
    public static final ItemGroup THEMADCRAFTERMATERIALS_TAB = new TMCMaterialsGroup("themadcraftersmaterials");
+   public static final ItemGroup THEMADCRAFTERORES_TAB = new TMCOresGroup("themadcraftersores");
    
    public TheMadCrafter() {
 	   IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
        bus.addListener(this::setup); 
-       
+
        ItemInit.ITEMS.register(bus);
        BlockInit.BLOCKS.register(bus);    
        
@@ -77,7 +81,7 @@ public class TheMadCrafter {
 		}
 		@Override
 		public ItemStack makeIcon() {
-			return ItemInit.ZIRCON_ORE.get().getDefaultInstance();
+			return ItemInit.CHRYSOCOLLA_BLOCK.get().getDefaultInstance();
 		}
     }  
     public static class TMCMoldsGroup extends ItemGroup {
@@ -124,5 +128,23 @@ public class TheMadCrafter {
 		public ItemStack makeIcon() {
 			return ItemInit.FLOURITE_LIQUID.get().getDefaultInstance();
 		}
-    } 
+    }  
+    public static class TMCOresGroup extends ItemGroup {
+		public TMCOresGroup(String label) {
+			super(label);
+		}
+		@Override
+		public ItemStack makeIcon() {
+			return ItemInit.GARNET_ORE.get().getDefaultInstance();
+		}
+
+	    @SubscribeEvent
+	    public void onServerStarting(FMLServerStartingEvent event) {
+	    }
+
+	    @SubscribeEvent
+	    public static void loadCompleteEvent(FMLLoadCompleteEvent event) {
+	    }
+	}
+    
 }

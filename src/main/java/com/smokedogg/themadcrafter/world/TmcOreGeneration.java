@@ -20,7 +20,7 @@ public class TmcOreGeneration {
         	generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
                     BlockInit.AZURITE_ORE.get().defaultBlockState(), 5, 15, 64, 10);
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                    BlockInit.BLACK_MICA_ORE.get().defaultBlockState(), 8, 5, 128, 15); 
+                    BlockInit.BLACK_MICA_ORE.get().defaultBlockState(), 9, 5, 128, 15); 
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
                     BlockInit.CHRYSOCOLLA_ORE.get().defaultBlockState(), 4, 24, 50, 10);           
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
@@ -30,7 +30,7 @@ public class TmcOreGeneration {
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
                     BlockInit.FLOURITE_ORE.get().defaultBlockState(), 5, 15, 64, 10);
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                    BlockInit.FOOLS_GOLD_ORE.get().defaultBlockState(), 5, 15, 50, 10);
+                    BlockInit.FOOLS_GOLD_ORE.get().defaultBlockState(), 5, 15, 70, 10);
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
                     BlockInit.HYDROCERUSSITE_ORE.get().defaultBlockState(), 3, 64, 128, 10);
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
@@ -73,6 +73,28 @@ public class TmcOreGeneration {
                     BlockInit.SUNSTONE_ORE.get().defaultBlockState(), 4, 64, 128, 10);
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
                     BlockInit.TOURMALINE_ORE.get().defaultBlockState(), 4, 64, 128, 10); 
+            //nether
+            generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NETHERRACK,
+                    BlockInit.CRYSTALIZED_BLACK_MICA_ORE.get().defaultBlockState(), 8, 10, 100, 12);
+            generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NETHERRACK,
+                    BlockInit.CYSTALIZED_CHRYSOCOLLA_ORE.get().defaultBlockState(), 4, 10, 100, 10);
+            generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NETHERRACK,
+                    BlockInit.CRYSTALIZED_FLOURITE_ORE.get().defaultBlockState(), 5, 10, 100, 10);
+            generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NETHERRACK,
+                    BlockInit.CRYSTALIZED_VOLCANIC_ROSE_ORE.get().defaultBlockState(), 4, 10, 100, 10);
+            generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NETHERRACK,
+                    BlockInit.CRYSTALIZED_ZIRCON_ORE.get().defaultBlockState(), 4, 10, 100, 10); 
+            generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NETHERRACK,
+                    BlockInit.CRYSTALIZED_ALEXANDRITE_ORE.get().defaultBlockState(), 4, 10, 100, 10);
+            generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NETHERRACK,
+                    BlockInit.CRYSTALIZED_FIRE_OPAL_ORE.get().defaultBlockState(), 4, 10, 100, 10);
+            generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NETHERRACK,
+                    BlockInit.CRYSTALIZED_HACKMANITE_ORE.get().defaultBlockState(), 5, 10, 100, 10);
+            generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NETHERRACK,
+                    BlockInit.CRYSTALIZED_RUBY_ORE.get().defaultBlockState(), 3, 10, 100, 10);
+            generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NETHERRACK,
+                    BlockInit.CRYSTALIZED_SAPPHIRE_ORE.get().defaultBlockState(), 4, 10, 100, 10); 
+             
         }
     private static void generateOre(BiomeGenerationSettingsBuilder settings, RuleTest fillerType, BlockState state,
             int veinSize, int minHeight, int maxHeight, int amount) {

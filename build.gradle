@@ -12,7 +12,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.0'
+version = '2.0.1'
 group = 'com.smokedogg.themadcrafter'
 archivesBaseName = 'themadcrafter'
 
@@ -93,7 +93,7 @@ jar {
         attributes([
             "Specification-Title": "themadcrafter",
             "Specification-Vendor": "psoproductions",
-            "Specification-Version": "2.0.0",
+            "Specification-Version": "2.0.1",
             "Implementation-Title": project.name,
             "Implementation-Version": "${version}",
             "Implementation-Vendor" :"psoproductions",

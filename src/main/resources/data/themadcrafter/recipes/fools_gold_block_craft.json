@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+		
+	],
+	"key": {
+		"#": {
+			"item": "themadcrafter:fools_gold_ingot"
+		}
+	},
+	"result": {
+		"item": "themadcrafter:fools_gold_block",
+		"count": 1
+	}
+}
